@@ -1,5 +1,5 @@
 [package]
-name = "rinsk"
+name = "minsk-rs"
 version = "0.0.1"
 authors = ["Luiz Felipe Gonçalves <https://luizfelipe.dev>"]
 edition = "2018"
