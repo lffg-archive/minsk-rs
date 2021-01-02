@@ -1,0 +1,7 @@
+[package]
+name = "rinsk"
+version = "0.0.1"
+authors = ["Luiz Felipe Gonçalves <https://luizfelipe.dev>"]
+edition = "2018"
+
+[dependencies]
