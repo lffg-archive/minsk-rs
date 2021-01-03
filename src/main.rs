@@ -1,11 +1,13 @@
 mod lexer;
+mod token;
 mod utils;
 
-use lexer::{Lexer, SyntaxTokenKind};
+use lexer::Lexer;
+use token::*;
 
 fn main() {
     loop {
-        let expr = utils::io::read_line("> ");
+        let expr = utils::read_line("> ");
         let expr = expr.trim();
 
         println!("You entered: {}", expr);

@@ -1,5 +1,4 @@
-mod token;
-pub use token::{SyntaxToken, SyntaxTokenKind};
+use crate::token::*;
 
 pub struct Lexer {
     text: String,

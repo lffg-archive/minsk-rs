@@ -1,7 +1,6 @@
 #[derive(Debug)]
 pub enum SyntaxTokenKind {
     NumberToken(isize),
-    WhiteSpaceToken,
 
     PlusToken,
     MinusToken,
@@ -9,6 +8,8 @@ pub enum SyntaxTokenKind {
     SlashToken,
     OpenParenthesisToken,
     CloseParenthesisToken,
+
+    WhiteSpaceToken,
 
     EndOfFileToken,
     BadToken,
